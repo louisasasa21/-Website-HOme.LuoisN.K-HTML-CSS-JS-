@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website HOme.LuoisN.K(เว็บไซต์ข่าวสารเกม ฝึกเขียนเว็บโดยใช้ HTML,CSS,JS)</title>
+
+    <link rel="stylesheet" href="main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+
+</head>
+<body>
+
+    <header class="topbar-nav">
+        <div class="container">
+            <div class="topbar-com">
+                <div class="topbar-title">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam repudiandae est ex illo, quia laboriosam.</p>
+                </div>
+            </div>
+            
+            <div class="topbar-com">
+                <div class="topbar-logo-menu-toggle">
+                    <div class="topbar-logo">
+                        <img src="/img/logo-wave-symbol-01.jpg" alt="logo"> HOme
+                    </div>
+    
+                    <div class="topbar-menu">
+                        <ul>
+                            <li class="active"><a href="#">Home1</a></li>
+                            <li><a href="#">Home2</a></li>
+                            <li><a href="#">Home3</a></li>
+                            <li><a href="#">Home4</a></li>
+                            <li><a href="#">Home5</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="topbar-social">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                    </div>
+                </div>
+
+                <div class="dropdownSearch">
+                    <button onclick="myFunction()" class="dropbtn"><i class="fa fa-search"></i></button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                    </div>
+                  </div>
+                  
+            </div> 
+        </div>
+    </header>
+
+    <section class="topnews">
+        <div class="container">
+            <div class="topcontainer">
+                <div class="topnew-com">
+                    <div class="mySlides fade">
+                        <img src="https://s3-eu-central-1.amazonaws.com/www-staging.esports.com/wp-media-folder-esports-com/app/uploads/2022/05/League-of-Legends.jpg" alt="lol-img1">
+                        <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque distinctio culpa cumque cum amet LOL-1</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="https://clan.cloudflare.steamstatic.com/images/3703047/c3c4b277a51b4a0fef0a49c88538440ffb46e782.jpg" alt="dota2-img2">
+                        <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloremque aspernatur et harum vitae facilis DOTA2-2</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="https://cdn.alza.cz/Foto/ImgGalery/Image/naraka-bladepoint-recenze-key-art.jpg" alt="naraka-img3">
+                        <div class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti quae consectetur voluptas natus tenetur placeat? NARAKA-3</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="https://gamingonphone.com/wp-content/uploads/2023/08/Honkai-star-rail-1.4-banner-order.jpg" alt="honkai-img4">
+                        <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nostrum laborum, itaque aspernatur accusantium soluta HONKAI-4</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt4845c37c8ec8c277/6495db0beaac9d6f6838fc54/Val_EP7_Kickoff_Thumb_Final_notxt.jpg?auto=webp&disable=upscale&height=549" alt="valorant-img5">
+                        <div class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem velit soluta assumenda labore aliquid quas? VOLORANT-5</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/capsule_616x353.jpg?t=1692901064" alt="apexlegends-img6">
+                        <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iure enim, voluptatem minus quae nisi? APEXLEGENDS-6</div>
+                    </div>
+    
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+                    <div style="text-align:center">
+                        <div class="dots">
+                            <span class="dot active" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                            <span class="dot" onclick="currentSlide(5)"></span>
+                            <span class="dot" onclick="currentSlide(6)"></span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="topnew-com">
+                    <div class="myNew">
+                        <img src="https://s3-eu-central-1.amazonaws.com/www-staging.esports.com/wp-media-folder-esports-com/app/uploads/2022/05/League-of-Legends.jpg" alt="lol-new1">
+                        <div class="text-new">Caption Text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem temporibus cupiditate harum incidunt itaque consectetur nobis consequuntur praesentium sint officia?</div>
+                    </div>
+                    <div class="myNew">
+                        <img src="https://clan.cloudflare.steamstatic.com/images/3703047/c3c4b277a51b4a0fef0a49c88538440ffb46e782.jpg" alt="dota2-new2">
+                        <div class="text-new">Caption Text Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolorem earum sit dolor dicta excepturi fugiat vitae molestias illo minima.</div>
+                    </div>
+                    <div class="myNew">
+                        <img src="https://nie.res.netease.com/r/pic/20230810/d01a0333-eb3a-42a7-a87b-58703449f52a.jpg" alt="naraka-new3">
+                        <div class="text-new">Caption Text Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, nemo? Magni quas iste numquam, soluta et corrupti recusandae officia asperiores.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+
+    <section class="content-new">
+       <div class="container">
+            <div class="title-newH2">
+                <h2>ข่าวเกมล่าสุด</h2>
+            </div>
+       </div>
+        
+        <div class="container">
+            <div class="owl-carousel owl-theme">
+                <div class="responsive">
+                    <div class="gallery">
+                         <a id="bernew1" href="#" target="_blank" class="bernew">
+                            <img src="https://assetsio.reedpopcdn.com/roblox-best-games-roblox-main-promo-image.jpg?width=1200&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp" alt="bernew1">
+                            <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut possimus, quas rem sed libero id!</p>
+                        </a>
+                    </div>
+                </div>
+               
+                <div class="responsive">
+                    <div class="gallery">
+                        <a id="bernew2" href="#" target="_blank" class="bernew">
+                            <img src="https://assets-prd.ignimgs.com/2022/09/23/top25modernpcgames-blogroll-1663951042311.jpg" alt="bernew2">
+                            <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos odit fugit incidunt at suscipit quam.</p>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="responsive">
+                    <div class="gallery">
+                        <a  id="bernew3" href="#" target="_blank" class="bernew">
+                            <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc655d62fc92e4acd/649bdd9094be10f2698941ed/071123_Val_EP7_China_CG_Banner.jpg?auto=webp&disable=upscale&height=549" alt="bernew3">
+                            <p class="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam dicta laborum itaque perspiciatis aperiam! Animi!</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div class="gallery">
+                        <a id="bernew4" href="#" target="_blank" class="bernew">
+                            <img src="https://i.ytimg.com/vi/usoM_Pkd1qU/hqdefault_live.jpg" alt="bernew4">
+                            <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero veritatis voluptatem, nemo reiciendis nihil quaerat.</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div class="gallery">
+                        <a id="bernew5" href="#" target="_blank" class="bernew">
+                            <img src="https://thecosmiccircus.com/wp-content/uploads/2023/07/Marvels-Spiderman-2-banner-e1690742326962.jpg" alt="bernew5">
+                            <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae consequatur, sed similique reprehenderit fugit repellendus officiis nobis? In, nulla similique, dignissimos ex, adipisci vel autem voluptate molestiae velit ad fuga?</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div class="gallery">
+                        <a id="bernew6" href="#" target="_blank" class="bernew">
+                            <img src="https://static.wixstatic.com/media/9565ad_b4fe35e314e14ceb8b2f20afc14120d6~mv2.png/v1/fill/w_640,h_360,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9565ad_b4fe35e314e14ceb8b2f20afc14120d6~mv2.png" alt="bernew6">
+                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium animi ratione quidem sapiente fugit soluta.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <br>
+    <section>
+        <div class="container">
+            <div class="Toptodday-news">
+                <h2 class="h2-today">ข่าวเกมวันนี้</h2>
+
+                <div class="layout">
+                    <div class="layoutco-daynews">
+                        <a href="#" class="todayco-img">
+                            <img src="https://staticg.sportskeeda.com/editor/2022/08/cb7f5-16597340143474-1920.jpg" alt="zenless zone zero">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sunt.</p>
+                        </a>
+                        <a href="#" class="todayco-img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJOkjgjpQmgr-MkdhLihN1nsOs0jbH366Eg7lZm6dSXkCHlimovD9_VD_vuHLBgGRxonU&usqp=CAU" alt="Ragnarok Origin">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sunt.</p>
+                        </a>
+                        <a href="#" class="todayco-img">
+                            <img src="https://img.pokde.net/v7/pokde.net/assets/uploads/2023/09/hsrasld.jpg" alt="honkai star rail">''
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sunt.</p>
+                        </a>
+                        <a href="#" class="todayco-img">
+                            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202306/0113/38ad0cc5b92af440d46ccebf5d1f271213d656684fce3385.png" alt="Avatar: Frontiers of Pandora">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sunt.</p>
+                        </a>
+                        <a href="#" class="todayco-img">
+                            <img src="https://www.gamemonday.com/wp-content/uploads/2023/11/Tower-of-Fantasy-231123-01.jpg" alt="Tower of Fantasy">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sunt.</p>
+                        </a>
+                        <a href="#" class="todayco-img">
+                            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202211/3007/lgFVhRm5BfoX02pRUt3lSmLV.png" alt="Final Fantasy XVI">''
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sunt.</p>
+                        </a>
+                        <a href="#" class="todayco-img">
+                            <img src="https://p325k7wa.twic.pics/high/dragon-ball/dragon-ball-sparking-zero/01-news/dbsz-announcement-thumbnail.jpg?twic=v1/resize=760/step=10/quality=80" alt="DRAGON BALL: Sparking! ZERO">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sunt.</p>
+                        </a>
+                        <a href="#" class="todayco-img">
+                            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202302/2321/ba706e54d68d10a0eb6ab7c36cdad9178c58b7fb7bb03d28.png" alt="Baldur’s Gate 3">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sunt.</p>
+                        </a>
+                        <a href="#" class="todayco-img">
+                            <img src="https://i.ytimg.com/vi/C44_HrseDSs/maxresdefault.jpg" alt="god of war ragnarök valhalla">''
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sunt.</p>
+                        </a>
+                    </div>
+
+                    <div class="col-content">
+                        <div class="editorial">
+                            <div class="txthead">
+                                <h2>Editorial</h2>
+                            </div>
+
+                            <div class="group">
+                                <div class="item">
+                                    <a href="#" class="group-numtxt">
+                                        <div class="num">1</div>
+                                        <div class="txt">
+                                            <p>ลองเล่นแล้วมาเล่า Avatar: Frontiers of Pandora..... ว่าที่มาตรฐานใหม่เกมยิง Open World ของ Ubisoft</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#" class="group-numtxt">
+                                        <div class="num">2</div>
+                                        <div class="txt">
+                                            <p>ลองเล่นแล้วมาเล่า Assassin’s Creed Mirage</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#" class="group-numtxt">
+                                        <div class="num">3</div>
+                                        <div class="txt">
+                                            <p>เกราะม้าผู้มาก่อนกาลจากเกม The Elder Scrolls IV: Oblivion จาก......โดนด่าทั้งแผ่นดินถึงเรื่องปกติใคร ๆ ก็ทำกัน</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#" class="group-numtxt">
+                                        <div class="num">4</div>
+                                        <div class="txt">
+                                            <p>วิธีปลดล็อกฉากจบทั้งหมดของ Armored Core 6</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#" class="group-numtxt">
+                                        <div class="num">5</div>
+                                        <div class="txt">
+                                            <p>รวมสารพัดเทคนิคน่ารู้ใน Baldur’s Gate III</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <section>
+        <div class="container">
+            <div class="Vdocollayoul">
+                <div class="text-tovdo">
+                    <h2>คลิปล่าสุดวันนี้</h2>
+                </div>
+
+                <div class="owl-carousel owl-theme" id="vdo-carousel">
+                    <div class="item-video" data-merge="1" data-video="https://www.youtube.com/watch?v=9sbE31iBnB0">
+                        <a class="owl-video" href="https://www.youtube.com/watch?v=9sbE31iBnB0"></a>
+                    </div>
+
+                    <div class="item-video" data-merge="1" data-video="https://www.youtube.com/watch?v=mj9LQvTjSGw">
+                        <a class="owl-video" href="https://www.youtube.com/watch?v=mj9LQvTjSGw"></a>
+                    </div>
+
+                    <div class="item-video" data-merge="1" data-video="https://www.youtube.com/watch?v=cIbCXQhd4PI&t=808s">
+                        <a class="owl-video" href="https://www.youtube.com/watch?v=cIbCXQhd4PI&t=808s"></a>
+                    </div>
+
+                    <div class="item-video" data-merge="1" data-video="https://www.youtube.com/watch?v=p_EbnbEqnVM">
+                        <a class="owl-video" href="https://www.youtube.com/watch?v=p_EbnbEqnVM"></a>
+                    </div>
+
+                    <div class="item-video" data-merge="1" data-video="https://www.youtube.com/watch?v=eoQSufx5hxQ">
+                        <a class="owl-video" href="https://www.youtube.com/watch?v=eoQSufx5hxQ"></a>
+                    </div>
+
+                    <div class="item-video" data-merge="1" data-video="https://www.youtube.com/watch?v=iFlo6MfDYOs&t=163s">
+                        <a class="owl-video" href="https://www.youtube.com/watch?v=iFlo6MfDYOs&t=163s"></a>
+                    </div>
+
+                    <div class="item-video" data-merge="1" data-video="https://www.youtube.com/watch?v=qh_rR3w-C0k">
+                        <a class="owl-video" href="https://www.youtube.com/watch?v=qh_rR3w-C0k"></a>
+                    </div>
+
+                    <div class="item-video" data-merge="1" data-video="https://www.youtube.com/watch?v=UPzOPJDcZU4">
+                        <a class="owl-video" href="https://www.youtube.com/watch?v=UPzOPJDcZU4"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <img src="/img/logo-wave-symbol-01.jpg" alt="logo"> HOme
+            </div>
+            <hr>
+            <div class="com-HOme">
+                <div class="HOme-item">
+                    <div class="HOme-itemlayoul">
+                        <p>หมวดที่น่าสนใจ</p>
+                         
+                        <li>
+                            <ul><a href="#">เกมมือถือ</a></ul>
+                            <ul><a href="#">เกมพีซี/เกมคอนโซล</a></ul>
+                            <ul><a href="#">เกมออกใหม่</a></ul>
+                            <ul><a href="#">อนิเมะ</a></ul>
+                        </li>
+                    </div>
+
+                    <div class="HOme-itemlayoul">
+                        <p>เกี่ยวกับ HOme</p>
+
+                        <li>
+                            <ul><a href="#">เกี่ยวกับเรา</a></ul>
+                            <ul><a href="#">นโยบายความเป็นส่วนตัว</a></ul>
+                            <ul><a href="#">ติดต่อเรา</a></ul>
+                        </li>
+                    </div>
+                </div>
+
+                <div class="HOme-item">
+                    <div class="footer-social">
+                        <a href="#"><i class='bx bxl-facebook bx-md' style="color:#fffafa"></i></a>
+                        <a href="#"><i class='bx bxl-twitter bx-md' style="color:#fffafa"></i></a>
+                        <a href="#"><i class='bx bxl-instagram bx-md' style="color:#fffafa"></i></a>
+                        <a href="#"><i class='bx bxl-youtube bx-md' style="color:#fffafa"></i></i></a>
+                        <a href="#"><i class='bx bxl-tiktok bx-md' style="color:#fffafa"></i></a>
+                        <a href="#"><i class='bx bxl-twitter bx-md' style="color:#fffafa"></i></a>
+                        <a href="#"><i class='bx bxl-discord-alt bx-md' style="color:#fffafa"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-Copy">
+                <p>@ Copyright Notice :This website is a platform for practicing web development, created by Louis.N on December 20, 2023.</p>
+            </div>
+            
+        </div>
+    </footer>
+
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="slidervdo.js"></script>
+    <script src="script.js"></script>
+    <script src="bernew.js"></script>
+</body>
+</html>
